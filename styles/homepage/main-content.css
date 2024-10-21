@@ -1,0 +1,135 @@
+.videos-from-channel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid blue;
+  margin-left: 255px;
+  margin-top: 42px;
+}
+
+.arrow-container {
+  position: absolute;
+  right: calc(346px - 100vw + 100%);
+  transform: translateX(-100%);
+  top: 24px;
+}
+
+.videos-container {
+  display: flex;
+  column-gap: 42px;
+  overflow:hidden;
+}
+
+.channel {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.videos-from-channel-name {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.63px;
+  color: rgba(25, 32, 44, 1);
+
+}
+
+.recommended-for-you {
+  font-size: 16px;
+  color: rgba(194, 194, 194, 1);
+  line-height: 20.08px;
+  margin-top: 8px;
+  
+}
+
+.video {
+  width: 250px;
+  height: 200px;
+  display: grid;
+  row-gap: 10px;
+  border: none;
+}
+
+.video-thumbnail {
+  position: relative;
+  height: 150px;
+  border: 1px solid red;
+
+}
+
+.video-thumbnail-cover {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.video-time {
+  position: absolute;
+  font-size: 14px;
+  line-height: 17.57px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 9px;
+  padding-right: 9px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.video-info {
+  display: grid;
+  row-gap: 4px;
+}
+
+.video-stats-and-channel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.08px;
+  color: rgba(25, 32, 44, 1);
+}
+
+.video-stats {
+  font-size: 13px;
+  line-height: 16.32px;
+  color:  rgba(194, 194, 194, 1);
+}
+
+
+.recommended {
+  margin-top: 49px;
+}
+.recommended .video {
+  width: 540px;
+  height: 300px;
+}
+
+.recommended .video-thumbnail {
+  height: 250px;
+}
+
+.recommended .video-thumbnail-cover {
+  width: 540px;
+  height: 250px;
+}
+
+.recommended .video-stats {
+  font-size: 12px;
+  line-height: 15.06px;
+}
+
+.recommended .arrow-container {
+  top: 4px;
+}
+
+
