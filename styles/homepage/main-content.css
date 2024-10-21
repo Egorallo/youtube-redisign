@@ -3,22 +3,41 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin-left: 255px;
   margin-top: 42px;
+}
+
+.sub-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 16px;
+  right: calc(353px - 100vw + 100%);
+  transform: translateX(-100%);
+  background-color: rgba(255, 0, 0, 1);
+  width: 154px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 20.08px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .arrow-container {
   position: absolute;
   right: calc(346px - 100vw + 100%);
   transform: translateX(-100%);
-  top: 24px;
+  top: 22px;
 }
 
 .videos-container {
   display: flex;
   column-gap: 42px;
-  overflow:hidden;
+  /* overflow:hidden; */
+  overflow-x: auto;
+
 }
 
 .channel {
@@ -56,7 +75,7 @@
 .video-thumbnail {
   position: relative;
   height: 150px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 
@@ -131,5 +150,7 @@
 .recommended .arrow-container {
   top: 4px;
 }
+
+
 
 
