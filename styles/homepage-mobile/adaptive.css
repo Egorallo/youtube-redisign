@@ -1,4 +1,4 @@
-@media (max-width: 1150px) and (min-width: 321px) {
+@media (max-width: 1250px) and (min-width: 321px) {
   .sub-button {
     display: none;
   }
@@ -36,12 +36,11 @@
   .recommended .video {
     width: 80vw;
     height: 40vw;
-
   }
 
   .recommended .video-thumbnail {
-    height: 100%;
-    width: 90%;
+    height: 90%;
+    width: 100%;
   }
 
   .recommended .video-info {
