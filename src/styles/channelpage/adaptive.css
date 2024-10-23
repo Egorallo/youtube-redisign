@@ -1,0 +1,175 @@
+@media (max-width: 1709px) {
+  .channel-video-info {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1335px) {
+  .channel-overview-right {
+    display: none;
+  }
+}
+
+@media (max-width: 1160px) {
+  .channel-navigation div:nth-child(4),
+  .channel-navigation div:nth-child(5),
+  .channel-navigation div:nth-child(6),
+  .channel-navigation div:nth-child(7) {
+    display: none;
+  }
+
+  .channel-navigation > div:last-child {
+    display: block;
+  }
+
+  .channel-navigation {
+    gap: 40px;
+  }
+
+  .channel-video-description {
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  .channel-info-notification {
+    display: none;
+  }
+
+  .channel-featured {
+    display: none;
+  }
+
+  .channel-info-subscribe-button {
+    width: 120px;
+    height: 34px;
+    font-size: 12px;
+  }
+
+  .channel-info-name {
+    font-size: 20px;
+    line-height: 25.1px;
+  }
+}
+
+@media (max-width: 599px) {
+  .main-channel {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0px;
+    margin-top: 60px;
+  }
+
+  .channel-info-left,
+  .channel-info {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .channel-info {
+    position: relative;
+    margin-top: 0;
+    top: -35px;
+    left: 16px;
+    gap: 57px;
+  }
+
+  .channel-info-stats {
+    gap: 5px;
+  }
+
+  .channel-info-subs {
+    font-size: 12px;
+    line-height: 15.06px;
+  }
+
+  .channel-info-subscribe-button {
+    line-height: 15.06px;
+  }
+
+  .channel-info-left {
+    gap: 2px;
+  }
+
+  .channel-pfp {
+    height: 70px;
+  }
+
+  .channel-pfp > img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .banner {
+    height: 100px;
+  }
+
+  .header-left > img:nth-child(2),
+  .header-right > img:nth-child(4),
+  .banner-img {
+    display: none;
+  }
+
+  .header-yt-logo,
+  .kebab-menu,
+  .header-channel-name {
+    display: block;
+  }
+
+  .banner-img-2 {
+    display: inline;
+  }
+
+  .header-channel-name {
+    font-weight: 700;
+    text-wrap: nowrap;
+    margin-left: 10px;
+  }
+
+  .header-center {
+    min-width: auto;
+    margin-left: 60px;
+  }
+
+  .header-right {
+    margin-right: 20px;
+  }
+
+  .channel-navigation > div {
+    font-size: 14px;
+    line-height: 17.57px;
+  }
+
+  .channel-navigation > div:first-child {
+    line-height: 17.57px;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    border: none;
+  }
+
+  .channel-overview {
+    margin-left: 16px;
+    margin-top: -7px;
+  }
+
+  #channelpage-videos {
+    margin-left: 16px;
+    margin-top: 14px;
+  }
+
+  .sidebar-nav-item:nth-child(1) {
+    color: rgba(137, 137, 137, 1);
+  }
+
+  .sidebar-nav-item:first-child .img-container img:first-child {
+    display: none;
+  }
+
+  .sidebar-nav-item:first-child .img-container img:nth-child(2) {
+    display: block;
+  }
+
+  #channelpage-videos .video {
+    gap: 8px;
+  }
+}
