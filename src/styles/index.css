@@ -1,11 +1,12 @@
-html,body {
+html,
+body {
   font-family: 'Mulish', 'Times New Roman';
   font-weight: 400;
   height: 100%;
-  padding: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+  padding: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .sidebar::-webkit-scrollbar {

@@ -43,14 +43,14 @@
   position: relative;
   font-size: 26px;
   font-weight: 700;
-  line-height: 32.63px;
+  line-height: 33px;
   color: rgba(25, 32, 44, 1);
 }
 
 .channel-info-subs {
   position: relative;
   font-size: 13px;
-  line-height: 16.32px;
+  line-height: 16px;
   font-weight: 400;
   color: rgba(194, 194, 194, 1);
 }
@@ -75,7 +75,7 @@
   height: 40px;
   border-radius: 20px;
   font-size: 16px;
-  line-height: 20.08px;
+  line-height: 20px;
   color: rgba(255, 255, 255, 1);
   border: none;
 }
@@ -101,7 +101,7 @@
 
 .channel-navigation > div {
   font-size: 18px;
-  line-height: 22.59px;
+  line-height: 23px;
 }
 
 .channel-navigation > div:nth-child(7) {
@@ -114,7 +114,7 @@
 
 .channel-navigation > div:first-child {
   font-weight: 700;
-  line-height: 22.58px;
+  line-height: 23px;
   color: rgba(255, 0, 0, 1);
   border-bottom: 2px solid rgba(255, 0, 0, 1);
 }
@@ -137,7 +137,7 @@
 .channel-video-time {
   position: absolute;
   font-size: 14px;
-  line-height: 17.57px;
+  line-height: 18px;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 12px;
@@ -185,7 +185,7 @@
 
 .channel-overview-right > div:first-child {
   font-size: 16px;
-  line-height: 20.08px;
+  line-height: 20px;
   color: rgba(194, 194, 194, 1);
 }
 
@@ -204,7 +204,7 @@
 .channel-recommended-channel div {
   font-size: 18px;
   font-weight: 700;
-  line-height: 22.59px;
+  line-height: 23px;
   color: rgba(25, 32, 44, 1);
 }
 
@@ -215,12 +215,13 @@
 }
 
 #channelpage-videos {
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 61px;
 }
 
 #channelpage-videos > .videos-container {
   margin-right: -70px;
+  overflow-x: hidden;
 }
 
 #channelpage-videos > .arrow-container {

@@ -28,7 +28,7 @@
   height: 40px;
   border-radius: 20px;
   font-size: 16px;
-  line-height: 20.08px;
+  line-height: 20px;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -44,7 +44,7 @@
 .videos-container {
   display: flex;
   column-gap: 40px;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 .channel {
@@ -57,14 +57,14 @@
 .videos-from-channel-name {
   font-size: 26px;
   font-weight: 700;
-  line-height: 32.63px;
+  line-height: 33px;
   color: rgba(25, 32, 44, 1);
 }
 
 .recommended-for-you {
   font-size: 16px;
   color: rgba(194, 194, 194, 1);
-  line-height: 20.08px;
+  line-height: 20px;
   margin-top: 8px;
 }
 
@@ -91,7 +91,7 @@
 .video-time {
   position: absolute;
   font-size: 14px;
-  line-height: 17.57px;
+  line-height: 18px;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 12px;
@@ -116,13 +116,13 @@
 .video-title {
   font-size: 16px;
   font-weight: 700;
-  line-height: 20.08px;
+  line-height: 20px;
   color: rgba(25, 32, 44, 1);
 }
 
 .video-stats {
   font-size: 13px;
-  line-height: 16.32px;
+  line-height: 16px;
   color: rgba(194, 194, 194, 1);
 }
 
@@ -145,7 +145,7 @@
 
 .recommended .video-stats {
   font-size: 12px;
-  line-height: 15.06px;
+  line-height: 15px;
 }
 
 .recommended .arrow-container {
