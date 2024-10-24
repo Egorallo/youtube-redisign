@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--bg-color);
   z-index: 200;
 }
 
@@ -35,10 +35,9 @@
 .search-bar {
   height: 44px;
   flex: 1;
-  background-color: rgba(235, 235, 235, 1);
+  background-color: var(--search-bar-color);
   border-radius: 22px;
   border-width: 0px;
-  opacity: 0.3;
   width: 0;
   padding: 0;
   padding-left: 23px;
@@ -48,12 +47,12 @@
   font-family: 'Mulish', 'Times New Roman';
   font-size: 16px;
   font-weight: 400;
-  color: rgba(48, 56, 76, 1);
+  color: var(--search-bar-placeholder-color);
   line-height: 20.08px;
 }
 
 .search-button {
-  background-color: rgba(235, 235, 235, 0.3);
+  background-color: rgba(235, 235, 235, 0);
   position: absolute;
   top: 13px;
   right: 14px;
@@ -88,4 +87,8 @@
   border: 1px solid white;
   top: -6px;
   right: -4px;
+}
+
+#switch:hover {
+  cursor: pointer;
 }
